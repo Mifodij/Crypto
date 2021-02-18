@@ -18,12 +18,8 @@ public class Calculator {
     private JButton Encrypt_Decrypt;
 
 
-
-    public static void main() {
-
-
-
-        Calculator.args = args;
+    public static void main(String[] args) {
+        //Calculator.args = args;
         JFrame jf = new JFrame("Hashcalc");
         jf.setContentPane(new Calculator().Calculator);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -32,8 +28,6 @@ public class Calculator {
         jf.pack();
         jf.setVisible(true);
     }
-
-
 
     /**
      * Конструктор класса и работы самого калькулятора
